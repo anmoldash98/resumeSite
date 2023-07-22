@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 500 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -20,26 +20,20 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Anmol Dash",
+  title: "Hi all, I'm Anmol",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer/Data Engineer 🚀 having an experience of building Web and Mobile applications with Java / Spring / Python / Snowflake and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink:"", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://www.linkedin.com/in/anmol-dash/",
+  medium: "https://medium.com/@anmoldash98",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +43,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "B2B SaaS Developer, working on highly Scalabale Enterprise Ready Applications",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Lead Tech Teams to drive completion of business goals"),
+    emoji("⚡ Build Enterprise SaaS Applications using Java + Spring Boot"),
+    emoji("⚡ Data Engineering Work using Snowflake, leveraging it as a Platform for new Apps")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,55 +55,39 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Snowflake",
+      fontAwesomeClassname: "fab fa-regular fa-snowflake"
     },
     {
-      skillName: "sass",
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fab fa-flower"
+    },
+    {
+      skillName: "B2B ",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL Databases",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "DynamoDB",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
@@ -126,23 +100,17 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "University of Maryland, Baltimore County",
+      logo: require("./assets/images/UMBC-removebg.png"),
+      subHeader: "Master of Science in Information Systems",
+      duration: "June 2020 - December 2022"
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Maryland, Baltimore County",
+      logo: require("./assets/images/UMBC-removebg.png"),
+      subHeader: "Bachelor of Science in Information Systems",
+      duration: "August 2016 - December 2019",
+      descBullets: ["Entrepreneurship Minor", "Cyber Security Certificate", "Networking Certficiate"]
     }
   ]
 };
@@ -150,7 +118,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +142,70 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Lead Software Engineer",
+      company: "Capital One",
+      companylogo: require("./assets/images/capitalOneLogo.png"),
+      date: "Jul 2023 – Present",
+      desc: "Lead Software Engineer at Capital One. Working on a B2B SaaS Application.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Lead App Developement Team to build features on Snowflake, leveraging it as a platform",
+        "Lead Development effort with Partnered External Team, for cutting-edge features",
+        "More to Come!"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Adjunct Professor",
+      company: "UMBC",
+      companylogo: require("./assets/images/UMBC-removebg.png"),
+      date: "Feb 2022 – Present",
+      desc: "Adjunct Professor, teaching students topics such as Databases and Java",
+      descBullets: [
+        "Teach IS 410/610 (Database Systems) and IS 147 (Introduction to Java) Courses at the University",
+        "Improve the learning Experience by Introducing “Data Dictionaries” and “Java Jazz” which are Follow Along Worksheets which students can fill out",
+        "Enhanced Learning and Receptiveness to content",
+        "Made Class Interaction more dynamic as it pushed students to follow along and understand content on slides.",
+        "Introduced Use of PollEverywhere to Reinforce Learning and create a fun and amicable environment encouraging students to Reinforce Concepts without Risk of Failure",
+        "Create Exams, Slides, and Class Exercises for students to facilitate a continuous learning environment"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Principal Associate, Software Engineer",
+      company: "Capital One",
+      companylogo: require("./assets/images/capitalOneLogo.png"),
+      date: "Feb 2022 – Jul 2023",
+      desc: "Principal Associate Software Engineer at Capital One. Working on a B2B SaaS Application.",
+      descBullets: [
+        "Utilize Java 11 and Maven to design Microservices and Secure API’s for use in B2B Applications",
+        "Create Tech Designs for multiple key features for B2B Application, Architecting technologies such as Spring Boot Microservices, Lambdas, Auth0, Dynamo, and Snowflake",
+        "Lead team through 2 Pivotal Technology Shifts, from focusing on Microservice, moving towards Authentication platforms, and most recently Shifting to Snowflake Based Architecture",
+        "Lead efforts for E2E Testing Automation, building out Pipelines to Conduct Cypress Tests on SauceLabs, Building out Test Data Loading and Generation tools",
+        "Orchestrate Communication between Product, Design, and Tech to ensure requirements are clear and work is defined for Engineering team"
+      ]
+    },
+    {
+      role: "Senior Associate, Software Engineer",
+      company: "Capital One",
+      companylogo: require("./assets/images/capitalOneLogo.png"),
+      date: "Mar 2021 – Feb 2022",
+      desc: "Senior Associate Software Engineer at Capital One. Working on a B2B SaaS Application.",
+      descBullets: [
+        "Create Microservices that are core features of B2B App",
+        "Introduce team to Sprint, Java, DynamoDB, and lead creation and design of services, and workflows"
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "General Dynamics, Mission Systems",
+      companylogo: require("./assets/images/gdmsLogo.jpeg"),
+      date: "Nov 2019 – Apr 2021",
+      desc: "Software Engineer, working on Spring Boot",
+      descBullets: [
+        "Utilize Java 11 to develop REST applications based on the Spring Boot framework",
+        "Design microservice application to monitor status of Kafka messages being passed and organizing messages into categories based on time and type of messages",
+        "Create Microservices and REST endpoints to facilitate monitoring of application, and facilitate front-end access to back-end application information",
+        "Implement Integration Tests, Unit Tests, and Dev server testing to ensure quality of software before being deployed to production environment",
+        "Deploy code in a CI/CD pipeline, conducting code reviews for every new feature added, gathering and implementing feedback before merging code"
+      ]
     }
   ]
 };
@@ -205,8 +214,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,63 +248,41 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications that I have taken and Obtained!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Certified Developer Associate (Exp: Jul 2023)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Obtained my AWS Certification",
+      image: require("./assets/images/awsCDA.png"),
+      imageAlt: "AWS Certified Developer Associate Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.credly.com/badges/aa6b5be0-ac19-43e9-9dc8-923c2ffd8962/linked_in_profile"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Cisco Certified Networking Associate (Exp: May 2019)",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Obtained my Cisco Certification",
+      image: require("./assets/images/ccnaLogo.jpg"),
+      imageAlt: "CCNA Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://cp.certmetrics.com/cisco/en/public/verify/credential/425124169706JLYL"
         }
       ]
     }
@@ -308,22 +295,8 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Just some fun stuff I have wrote on Medium!",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -343,7 +316,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,22 +329,20 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? Reach out on Linkedin!",
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "adash98", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
