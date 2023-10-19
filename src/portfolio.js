@@ -23,7 +23,7 @@ const greeting = {
   username: "Anmol Dash",
   title: "Hi all, I'm Anmol",
   subTitle: emoji(
-    "A passionate Software Developer/Data Engineer 🚀 with experience in building SaaS applications with Java / Spring / Python / Snowflake and some other cool libraries and frameworks."
+    "A passionate Software Developer/Data Engineer 🚀 with experience in building SaaS applications with Java / Spring / Python / Snowflake and some other cool libraries and frameworks. Always looking to learn and try new tech!"
   ),
   resumeLink:"", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
