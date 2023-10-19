@@ -23,7 +23,7 @@ const greeting = {
   username: "Anmol Dash",
   title: "Hi all, I'm Anmol",
   subTitle: emoji(
-    "A passionate Software Developer/Data Engineer 🚀 having an experience of building Web and Mobile applications with Java / Spring / Python / Snowflake and some other cool libraries and frameworks."
+    "A passionate Software Developer/Data Engineer 🚀 with experience in building SaaS applications with Java / Spring / Python / Snowflake and some other cool libraries and frameworks."
   ),
   resumeLink:"", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -261,6 +261,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Snowflake SnowPro Core (Exp: Aug 2025)",
+      subtitle:
+        "Obtained my Snowpro Certification",
+      image: require("./assets/images/snowproCoreLogo.png"),
+      imageAlt: "Snowpro Certification Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://credly.com/badges/995db2dc-92af-419a-bb0b-b0f24acce10a"
+        }
+      ]
+    },
+    {
       title: "AWS Certified Developer Associate (Exp: Jul 2023)",
       subtitle:
         "Obtained my AWS Certification",
@@ -277,7 +290,7 @@ const achievementSection = {
       title: "Cisco Certified Networking Associate (Exp: May 2019)",
       subtitle:
         "Obtained my Cisco Certification",
-      image: require("./assets/images/ccnaLogo.jpg"),
+      image: require("./assets/images/ccnaLogo.png"),
       imageAlt: "CCNA Logo",
       footerLink: [
         {
