@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.scss";
 import Main from "./containers/Main";
+import { inject } from '@vercel/analytics';
+
 
 function App() {
   return (
@@ -9,5 +11,5 @@ function App() {
     </div>
   );
 }
-
+inject();
 export default App;
