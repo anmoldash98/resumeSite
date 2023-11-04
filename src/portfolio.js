@@ -193,20 +193,20 @@ const workExperiences = {
         "Introduce team to Sprint, Java, DynamoDB, and lead creation and design of services, and workflows"
       ]
     },
-    {
-      role: "Software Engineer",
-      company: "General Dynamics, Mission Systems",
-      companylogo: require("./assets/images/gdmsLogo.jpeg"),
-      date: "Nov 2019 – Apr 2021",
-      desc: "Software Engineer, working on Spring Boot",
-      descBullets: [
-        "Utilize Java 11 to develop REST applications based on the Spring Boot framework",
-        "Design microservice application to monitor status of Kafka messages being passed and organizing messages into categories based on time and type of messages",
-        "Create Microservices and REST endpoints to facilitate monitoring of application, and facilitate front-end access to back-end application information",
-        "Implement Integration Tests, Unit Tests, and Dev server testing to ensure quality of software before being deployed to production environment",
-        "Deploy code in a CI/CD pipeline, conducting code reviews for every new feature added, gathering and implementing feedback before merging code"
-      ]
-    }
+    // {
+    //   role: "Software Engineer",
+    //   company: "General Dynamics, Mission Systems",
+    //   companylogo: require("./assets/images/gdmsLogo.jpeg"),
+    //   date: "Nov 2019 – Apr 2021",
+    //   desc: "Software Engineer, working on Spring Boot",
+    //   descBullets: [
+    //     "Utilize Java 11 to develop REST applications based on the Spring Boot framework",
+    //     "Design microservice application to monitor status of Kafka messages being passed and organizing messages into categories based on time and type of messages",
+    //     "Create Microservices and REST endpoints to facilitate monitoring of application, and facilitate front-end access to back-end application information",
+    //     "Implement Integration Tests, Unit Tests, and Dev server testing to ensure quality of software before being deployed to production environment",
+    //     "Deploy code in a CI/CD pipeline, conducting code reviews for every new feature added, gathering and implementing feedback before merging code"
+    //   ]
+    // },
   ]
 };
 
