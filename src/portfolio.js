@@ -60,7 +60,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Snowflake",
-      fontAwesomeClassname: "fab fa-regular fa-snowflake"
+      fontAwesomeClassname: "fas fa-snowflake"
     },
     {
       skillName: "Spring Boot",
