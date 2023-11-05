@@ -182,17 +182,17 @@ const workExperiences = {
         "Orchestrate Communication between Product, Design, and Tech to ensure requirements are clear and work is defined for Engineering team"
       ]
     },
-    {
-      role: "Senior Associate, Software Engineer",
-      company: "Capital One",
-      companylogo: require("./assets/images/capitalOneLogo.png"),
-      date: "Mar 2021 – Feb 2022",
-      desc: "Senior Associate Software Engineer at Capital One. Working on a B2B SaaS Application.",
-      descBullets: [
-        "Create Microservices that are core features of B2B App",
-        "Introduce team to Sprint, Java, DynamoDB, and lead creation and design of services, and workflows"
-      ]
-    },
+    // {
+    //   role: "Senior Associate, Software Engineer",
+    //   company: "Capital One",
+    //   companylogo: require("./assets/images/capitalOneLogo.png"),
+    //   date: "Mar 2021 – Feb 2022",
+    //   desc: "Senior Associate Software Engineer at Capital One. Working on a B2B SaaS Application.",
+    //   descBullets: [
+    //     "Create Microservices that are core features of B2B App",
+    //     "Introduce team to Sprint, Java, DynamoDB, and lead creation and design of services, and workflows"
+    //   ]
+    // },
     // {
     //   role: "Software Engineer",
     //   company: "General Dynamics, Mission Systems",
